@@ -1,0 +1,2 @@
+Src/GPIO.c:6:6:GPIOA_init	32	static
+Src/GPIO.c:17:6:BTN_init	32	static

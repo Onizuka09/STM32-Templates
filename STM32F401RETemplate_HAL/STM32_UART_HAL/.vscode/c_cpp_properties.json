@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/CMSIS/**",
+                "${workspaceFolder}/CMSIS/Include/**",
+                "${workspaceFolder}/CMSIS/STM32F4_Headers/**",
+                "${workspaceFolder}/CMSIS/STM32F4xx_HAL_Driver/**",
+                "${workspaceFolder}/CMSIS/STM32F4xx_HAL_Driver/Src/**",
+                "${workspaceFolder}/CMSIS/STM32F4xx_HAL_Driver/Inc/**",
+                "${workspaceFolder}/CMSIS/STM32F4xx_HAL_Driver/Inc/Legacy/**"
+            ],
+            "defines": [ "STM32F401xE"],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm",
+            "compileCommands": "${workspaceFolder}/compile_commands.json"
+    
+        }
+
+    ],
+    "version": 4
+}

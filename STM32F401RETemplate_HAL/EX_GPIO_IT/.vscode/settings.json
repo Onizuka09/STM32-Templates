@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c"
+    },
+    "cortex-debug.gdbPath": "/home/moktar/Downloads/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gdb",
+    "cortex-debug.stlinkPath": "/usr/bin/st-util"
+ }
