@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Inc/*",
+                "${workspaceFolder}/Src/*",
+                "${workspaceFolder}/CMSIS/Startup/*",
+                "${workspaceFolder}/CMSIS/STM32F4_Headers/*"
+            ],
+            "defines": ["STM32F407xx","STM32F407VG"],
+            "compilerPath": "/usr/bin/clang-15",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-arm"
+        }
+    ],
+    "version": 4
+}
